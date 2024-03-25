@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: teste teste, teste, LIC=BUUGK-ZPYMZ-DK8BN-Y0Z90-QL62H-VQC8W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Imply\Desktop\projetos\microcontroler\Projeto_Teste\Teste.uvproj
+Project File Date:  03/21/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_MPS_CM3.s...
+compiling system_LPC17xx.c...
+compiling main.c...
+main.c(115): warning:  #177-D: variable "xStatus"  was declared but never referenced
+  				BaseType_t xStatus;
+main.c(8): warning:  #177-D: variable "blinkTmr"  was declared but never referenced
+  static TimerHandle_t blinkTmr;
+main.c(157): warning:  #177-D: function "blinkCallBack"  was declared but never referenced
+  static void blinkCallBack( TimerHandle_t timer ){
+main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=9728 RO-data=252 RW-data=132 ZI-data=35452  
+".\Objects\Teste.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
