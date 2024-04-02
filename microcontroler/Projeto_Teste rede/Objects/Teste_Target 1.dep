@@ -1,0 +1,74 @@
+Dependencies for Project 'Teste', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x660BF9F4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\LibCMSIS -I .\LibFreeRTOS -I ..\Projeto_Teste -I .\LibNetwork-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="524"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\LibCMSIS\LibCMSIS.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_adc.h)(0x65FC15BB)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D7C62)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D864A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D864A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D864A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703F6C2)
+I (.\LibCMSIS\lpc_types.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_can.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_clkpwr.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_dac.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_exti.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_gpdma.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_gpio.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_i2c.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_i2s.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_mcpwm.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_nvic.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_pinsel.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_pwm.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_qei.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_rit.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_rtc.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_spi.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_ssp.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_systick.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_timer.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_uart.h)(0x65FC15BB)
+I (.\LibCMSIS\lpc17xx_wdt.h)(0x65FC15BB)
+I (.\LibFreeRTOS\LibFreeRTOS.h)(0x65FC15BB)
+I (.\LibFreeRTOS\FreeRTOS.h)(0x65FC15BB)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C2C04)
+I (.\LibFreeRTOS\FreeRTOSConfig.h)(0x65FC15BB)
+I (.\LibFreeRTOS\projdefs.h)(0x65FC15BB)
+I (.\LibFreeRTOS\portable.h)(0x65FC15BB)
+I (.\LibFreeRTOS\deprecated_definitions.h)(0x65FC15BB)
+I (.\LibFreeRTOS\portmacro.h)(0x65FC15BB)
+I (.\LibFreeRTOS\mpu_wrappers.h)(0x65FC15BB)
+I (.\LibFreeRTOS\task.h)(0x65FC15BB)
+I (.\LibFreeRTOS\list.h)(0x65FC15BB)
+I (.\LibFreeRTOS\timers.h)(0x65FC15BB)
+I (.\LibFreeRTOS\queue.h)(0x65FC15BB)
+I (.\LibFreeRTOS\semphr.h)(0x65FC15BB)
+I (definicoesProjeto.h)(0x66055D7E)
+I (.\LibNetwork\LibNetwork.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_IP.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOSIPConfig.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOSIPConfigDefaults.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_errno_TCP.h)(0x653AA6B8)
+I (.\LibNetwork\IPTraceMacroDefaults.h)(0x653AA6B8)
+I (.\LibNetwork\pack_struct_start.h)(0x653AA6B8)
+I (.\LibNetwork\pack_struct_end.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_IP_Private.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_Sockets.h)(0x653AA6B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C2C04)
+I (.\LibFreeRTOS\event_groups.h)(0x65FC15BB)
+I (.\LibNetwork\FreeRTOS_Stream_Buffer.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_TCP_WIN.h)(0x653AA6B8)
+I (.\LibNetwork\FreeRTOS_TCP_IP.h)(0x653AA6B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C2C04)
+F (.\system_LPC17xx.c)(0x65FC15BC)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\LibCMSIS -I .\LibFreeRTOS -I ..\Projeto_Teste -I .\LibNetwork-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="524"-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D7C62)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D864A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D864A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D864A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703F6C2)
+F (.\LibFreeRTOS\FreeRTOS.lib)(0x660ABDEA)()
+F (.\LibFreeRTOS\startup_MPS_CM3.s)(0x65FC15BB)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 524"--list .\listings\startup_mps_cm3.lst --xref -o .\objects\startup_mps_cm3.o --depend .\objects\startup_mps_cm3.d)
+F (.\LibCMSIS\CMSIS.lib)(0x65FC15BB)()
+F (.\LibNetwork\Network.lib)(0x653AA6B8)()

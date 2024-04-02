@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\system_lpc17xx.o"
+".\LibFreeRTOS\FreeRTOS.lib"
+".\objects\startup_mps_cm3.o"
+".\LibCMSIS\CMSIS.lib"
+".\LibNetwork\Network.lib"
+--strict --scatter ".\Objects\Teste.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Teste.map" -o .\Objects\Teste.axf
